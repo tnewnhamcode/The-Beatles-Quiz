@@ -5,9 +5,9 @@ function Question3(){
     return(
     <>
     <h1>Paul drew this?</h1>
-    <Link to="/correct3">No way</Link>
+    <Link to="/incorrect">Yes</Link>
     <br></br>
-    <Link to="/incorrect">Yes </Link>
+    <Link to="/correct">No way </Link>
     <br></br>
     <br></br>
     <img className='pic' src={Paul}></img>
@@ -15,4 +15,5 @@ function Question3(){
     
 )
 }
+
 export default Question3;
