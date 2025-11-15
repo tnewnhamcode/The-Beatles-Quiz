@@ -7,7 +7,7 @@ function Question3(){
     <h1>Paul drew this?</h1>
     <Link to="/incorrect">Yes</Link>
     <br></br>
-    <Link to="/correct">No way </Link>
+    <Link to="/correct3">No way </Link>
     <br></br>
     <br></br>
     <img className='pic' src={Paul}></img>
@@ -17,3 +17,4 @@ function Question3(){
 }
 
 export default Question3;
+
