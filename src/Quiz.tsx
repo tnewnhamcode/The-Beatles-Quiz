@@ -5,7 +5,7 @@ function Quiz(){
    //accessing the name property in the state object and calling it playerName
    //saying or nothing basically la, incase theres nothing in there so it dont crash.. idk
 return(
-<div classname=nonhomescreen>
+<div className="nonhomescreen">
   
 <h1>George Harrison played the sitar? </h1>
 <Link to="/correct">Yes</Link>
@@ -17,4 +17,5 @@ return(
 
 
 export default Quiz;
+
 
