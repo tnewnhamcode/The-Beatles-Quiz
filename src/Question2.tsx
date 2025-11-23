@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import jahn from './imgs/jahn.avif';
 function Question2(){
     return(
-    <div className="nonhomescreen">
+    <div>
     <h1>John Lennon sung 'Come Together'?</h1>
     <Link to="/correct2">Yes</Link>
     <br></br>
@@ -13,4 +13,5 @@ function Question2(){
     </div>
 )
 }
+
 export default Question2;
