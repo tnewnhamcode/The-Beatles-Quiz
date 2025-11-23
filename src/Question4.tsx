@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Question4(){
     return(
-    <div className="nonhomescreen">
+    <div>
      <h1>Ringo wears many rings? </h1> 
     <Link to="/correct4">yesh</Link>
     <br></br>
@@ -10,4 +10,5 @@ function Question4(){
     </div>
 )
 }
+
 export default Question4;
