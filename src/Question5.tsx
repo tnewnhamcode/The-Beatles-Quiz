@@ -4,7 +4,7 @@ import {useState} from "react";
 function Question5(){
    const [answer, setAnswer]= useState("");
     return(
-    <div className="nonhomescreen">
+    <div >
     
     <form>
         <h1>When did the Beatles officially breakup</h1>
@@ -28,4 +28,5 @@ function Question5(){
     </div>
 )
 }
+
 export default Question5;
