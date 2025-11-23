@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Question6(){
     return(
-    <div className="nonhomescreen">
+    <div >
     <h1>Are you bored?</h1>
     <Link to="/victorypage">Yes</Link>
     <br></br>
@@ -10,4 +10,5 @@ function Question6(){
     </div>
 )
 }
+
 export default Question6;
