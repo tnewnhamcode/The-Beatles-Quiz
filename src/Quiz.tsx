@@ -13,6 +13,8 @@ return(
 <br></br>
  <Link to="/incorrect">No</Link>
   <br></br>
+  <br></br>
+  <br></br>
   <img src={george}/>
 </div>
 )
@@ -20,6 +22,7 @@ return(
 
 
 export default Quiz;
+
 
 
 
