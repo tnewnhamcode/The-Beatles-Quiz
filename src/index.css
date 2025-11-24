@@ -87,9 +87,7 @@ button:focus-visible {
   will-change: transform, opacity;
 }
 
-.home {
-  background-color: aliceblue;
-}
+
 
 .butt {
   background-color: aliceblue;
