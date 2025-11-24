@@ -54,7 +54,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 )
 function App() {
   return (
-  <div className='divv home'>
+  <div className='divv'>
   
 
 
