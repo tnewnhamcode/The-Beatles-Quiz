@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import beatles from './imgs/beatles.jpg';
 
 function Namepage() {
   const [name, setName] = useState(''); //returns a stateful value and a functin to update it, here i destrcutre the array that the function returns (like many react hooks do apparanrly) and name them (call the stateful value name
@@ -30,6 +31,7 @@ function Namepage() {
 
 
 export default Namepage;
+
 
 
 
