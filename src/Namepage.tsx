@@ -24,6 +24,7 @@ function Namepage() {
         <button className='butt' type="submit">Enter</button> 
       
       </form>
+      <br></br>
   <img src={beatles} alt="Beatles" />
     </div>
   );
@@ -31,6 +32,7 @@ function Namepage() {
 
 
 export default Namepage;
+
 
 
 
