@@ -18,6 +18,12 @@ align-items: center;
 
   text-decoration: none;
 }
+
+.big{
+  font-size: 1.5rem;
+  padding: 0.75rem 1rem;
+}
+  
 .biggun:hover{
 
   color: rgb(5, 106, 5);
