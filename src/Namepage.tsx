@@ -13,7 +13,7 @@ function Namepage() {
   return (
     <div>
       <h1 >What's your name?</h1>
-      <form onSubmit={handleSubmit}>
+      <form className='big' onSubmit={handleSubmit}>
         <input
           type="text"
           value={name} //what becomes the name value (the stateful value you are handing on to next page)
@@ -26,5 +26,6 @@ function Namepage() {
     </div>
   );
 }
+
 
 export default Namepage;
