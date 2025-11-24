@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import george from "./imgs/geege"
+import george from "./imgs/geege.jpg"
 //const is like saying read only apparantly, unchangable la
 function Quiz(){
   
@@ -19,6 +19,7 @@ return(
 
 
 export default Quiz;
+
 
 
 
