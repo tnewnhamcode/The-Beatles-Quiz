@@ -28,9 +28,10 @@ function Namepage() {
     </div>
   );
 }
-
+console.log(beatles)
 
 export default Namepage;
+
 
 
 
