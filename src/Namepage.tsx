@@ -24,13 +24,14 @@ function Namepage() {
         <button className='butt' type="submit">Enter</button> 
       
       </form>
-     <img src="./imgs/beatles.jpg" alt="Beatles"/>
+  <img src={beatles} alt="Beatles" />
     </div>
   );
 }
 
 
 export default Namepage;
+
 
 
 
