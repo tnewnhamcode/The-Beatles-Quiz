@@ -8,11 +8,14 @@ function Question4(){
     <Link to="/correct4">yes</Link>
     <br></br>
     <Link to="/incorrect">number 9</Link>
+        <br></br>
+        <br></br>
         <img src={rango}/>
     </div>
 )
 }
 
 export default Question4;
+
 
 
