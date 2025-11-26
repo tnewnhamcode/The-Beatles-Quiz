@@ -33,7 +33,7 @@ body {
 }
 .victory {
   border:rgb(96, 2, 140) solid 10px;
-  min-height: 1800px;
+  min-height: 100vh;
   
  
 }
