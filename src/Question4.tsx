@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import rango from "./imgs.rango.jpg"
+import rango from "./imgs/rango.jpg"
 
 function Question4(){
     return(
@@ -16,6 +16,7 @@ function Question4(){
 }
 
 export default Question4;
+
 
 
 
