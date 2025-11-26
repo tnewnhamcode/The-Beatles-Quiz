@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import rango from "./imgs.rango.jpg"
 
 function Question4(){
     return(
@@ -7,9 +8,11 @@ function Question4(){
     <Link to="/correct4">yes</Link>
     <br></br>
     <Link to="/incorrect">number 9</Link>
+        <img src={rango}/>
     </div>
 )
 }
 
 export default Question4;
+
 
