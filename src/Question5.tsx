@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import {useState} from "react"; 
+import {useState} from "react";
+import {breakup} from "./imgs/breakup"
 
 function Question5(){
    const [answer, setAnswer]= useState("");
@@ -25,8 +26,12 @@ function Question5(){
         </Link>}
         
     </form>
+       <br></br>
+       <br></br>
+       <img src={breakup}/>
     </div>
 )
 }
 
 export default Question5;
+
